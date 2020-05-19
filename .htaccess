@@ -1,3 +1,7 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^srikar8968.github.io/Portfolio/ [NC]
+RewriteRule ^(.*)$ https://srikar8968.github.io/Portfolio/$1 [L,R=301]
 <IfModule mod_expires.c>
     ## Enable expiration control
     ExpiresActive On
