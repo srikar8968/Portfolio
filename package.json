@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "purgecss": "^2.2.1"
+    "purgecss": "^5.0.0"
   }
 }
